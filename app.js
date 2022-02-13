@@ -1,12 +1,19 @@
 
 var btn_translator = document.querySelector("#btn-translate");
+var textInput = document.querySelector("#text-input");
+var outputText = document.querySelector("#output");
 
 function clickHandler() {
-    console.log("Clicked!");
+    outputText.innerText = "abifvwubevuobqef " +textInput.value;
 };
 
 
-btn_translator.addEventListener("click", clickHandler)
+btn_translator.addEventListener("click", clickHandler);
+
+
+
+
+
 
 
 
